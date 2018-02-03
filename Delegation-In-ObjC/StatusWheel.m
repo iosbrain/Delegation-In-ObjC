@@ -33,8 +33,6 @@
 
 @interface StatusWheel ()
 
-@property (nonatomic, strong) UIViewController *hostView;
-
 @property (strong, nonatomic) UIActivityIndicatorView *statusIndicator;
 
 @property (strong, nonatomic) UIView *backingView;
