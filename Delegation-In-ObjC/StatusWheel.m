@@ -68,12 +68,12 @@
 
         self.statusIndicator.color = [UIColor whiteColor];
         
-        int statusX = self.statusIndicator.frame.origin.x - 6;
-        int statusY = self.statusIndicator.frame.origin.y - 6;
-        int statusWidth = self.statusIndicator.frame.size.width + 12;
-        int statusHeight = self.statusIndicator.frame.size.height + 12;
+        int backingViewX = self.statusIndicator.frame.origin.x - 6;
+        int backingViewY = self.statusIndicator.frame.origin.y - 6;
+        int backingViewWidth = self.statusIndicator.frame.size.width + 12;
+        int backingViewHeight = self.statusIndicator.frame.size.height + 12;
         
-        self.backingView = [[UIView alloc] initWithFrame: CGRectMake (statusX, statusY, statusWidth, statusHeight)];
+        self.backingView = [[UIView alloc] initWithFrame: CGRectMake (backingViewX, backingViewY, backingViewWidth, backingViewHeight)];
         self.backingView.backgroundColor = [UIColor lightGrayColor];
         self.backingView.alpha = 0.0;
         
